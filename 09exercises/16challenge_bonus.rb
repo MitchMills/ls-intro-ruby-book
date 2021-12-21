@@ -12,10 +12,3 @@ contacts.each_with_index do |(k, v), index|
 end
 
 p contacts
-
-
-# contacts.each_with_index do |(name, hash), idx|
-#   fields.each do |field|
-#     hash[field] = contact_data[idx].shift
-#   end
-# end
