@@ -9,3 +9,6 @@ puts
 state_info.each do |k, v|
   puts "The #{k} of the state is #{v}."
 end
+
+puts state_info.keys
+p state_info.values

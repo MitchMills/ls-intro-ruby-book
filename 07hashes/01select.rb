@@ -11,6 +11,7 @@ immediate_family = family.select do |k, v|
   k == :sisters || k == :brothers
 end
 
+p immediate_family.values
 imm_fam_array = immediate_family.values.flatten
 
 p imm_fam_array
