@@ -4,8 +4,8 @@ def take_proc(proc)
   end
 end
 
-proc = Proc.new do |number|
+announcement = Proc.new do |number|
   puts "#{number}. Proc being called in the method!"
 end
 
-take_proc(proc)
+take_proc(announcement)

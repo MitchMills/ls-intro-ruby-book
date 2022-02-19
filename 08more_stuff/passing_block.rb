@@ -1,8 +1,8 @@
-def take_block(number, &block)
-  block.call(number)
+def take_block(number, &print)
+  print.call(number)
 end
 
-number = 42
-take_block(number) do |num|
+answer = 42
+take_block(answer) do |num|
   puts "Block being called in the method! #{num}"
 end

@@ -1,5 +1,5 @@
 def lab_check(string)
-  if /lab/i.match(string)
+  if /lab/.match(string)
     puts string + ": match!"
   else
     puts string + ": no match."
