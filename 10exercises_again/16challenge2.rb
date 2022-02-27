@@ -4,7 +4,7 @@ labels = [:email, :address, :phone_number]
 
 contacts.each do |name, info|
   labels.each do |label|
-    contacts[name][label] = contact_data.shift
+    info[label] = contact_data.shift
   end
 end
 
